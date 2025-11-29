@@ -26,8 +26,7 @@ Vite
 CSS
 
 
-Installation & Run
-# Clone this repository
+# Installation & Run Clone this repository
 git clone https://github.com/Ernitos/todo-list.git
 
 # Install dependencies
