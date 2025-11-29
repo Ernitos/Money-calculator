@@ -1,8 +1,8 @@
-React Money-calculator
+#React Money-calculator
 A simple and clean Money-calculator app built with React.
 
 
-Features
+#Features
 
 Convert between USD, EUR, RUB
 
@@ -15,7 +15,7 @@ Uses useState for storing currency and input values
 
 
 
-Technologies Used
+#Technologies Used
 
 React
 
