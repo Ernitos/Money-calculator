@@ -1,0 +1,81 @@
+.converter {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 50px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.25);
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.converter h1 {
+  font-weight: 900;
+  font-size: 28px;
+  color: #3b82f6;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.converter h3 {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.converter input,
+.converter select {
+  padding: 12px 14px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(30, 64, 175, 0.8);
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.converter input:hover,
+.converter select:hover {
+  background-color: rgba(37, 99, 235, 0.9);
+  transform: scale(1.02);
+}
+
+.converter button {
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.converter button:hover {
+  background: linear-gradient(90deg, #1e40af, #2563eb);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.converter:hover {
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.35);
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
